@@ -52,7 +52,7 @@ gcloud artifacts repositories list --location=$REGION
 gcloud container clusters create $CLUSTER_NAME \
 --zone $ZONE \
 --release-channel regular \
---cluster-version 1.29 \
+--cluster-version 1.30 \
 --enable-autoscaling \
 --num-nodes 3 \
 --min-nodes 2 \
